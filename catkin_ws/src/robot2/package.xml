@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>robot2</name>
+    <version>0.0.1</version>
+    <description>
+        turtlebot3 lightweight simulation
+    </description>
+
+    <maintainer email="oscar.lima@dfki.de">Oscar Lima</maintainer>
+
+    <license>GPLv3</license>
+
+    <author email="oscar.lima@dfki.de">Oscar Lima</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <run_depend>turtlebot3_gazebo</run_depend>
+    <run_depend>effort_controllers</run_depend>
+    <run_depend>ros_control</run_depend>
+
+</package>
